@@ -2,7 +2,6 @@
 require_relative "../lib/greeting.rb"
 
 # code your CLI here!
-puts "Hello! Welcome to the Tic Tac Toe Game!"
-puts "Please enter your name so that we can greet you more personally."
+puts "Hi! I'm HAL, what's your name?"
 name = gets.strip
 greeting(name)
